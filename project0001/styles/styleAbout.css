@@ -92,6 +92,14 @@ section {
     border-radius: 15px;
 }
 
+section:hover {
+    min-height: 15.5rem;
+    min-width: 50.3rem;
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px 5px rgba(154, 66, 255, 0.856);
+    cursor: pointer;
+  }
+
 .avestruz img{
     margin-top: 20px;
     margin-bottom: 20px;

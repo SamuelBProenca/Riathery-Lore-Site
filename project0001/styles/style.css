@@ -136,7 +136,7 @@ section:hover {
     min-height: 15.5rem;
     min-width: 50.3rem;
     transition: 0.3s;
-    box-shadow: 1px 1px 10px 5px#fda654;
+    box-shadow: 1px 1px 10px 5px rgba(154, 66, 255, 0.856);
     cursor: pointer;
   }
   
@@ -156,6 +156,16 @@ section:hover {
     margin-right: 1.2rem;
     border-right: 1px solid rgb(235, 95, 95);
   }
+
+  img:hover {
+    box-shadow: 1px 1px 30px 4px #3b1753;
+    border-right: 4px solid rgb(154, 66, 255);
+    border-bottom: 3px solid rgb(98, 27, 180);
+    border-left: 2px solid rgb(66, 154, 255);
+    border-top: 1px solid rgb(38, 138, 253);
+    transition: 0.5 s;
+}
+
   
   .blue {
     /* Alteração: Definir a largura do texto */
