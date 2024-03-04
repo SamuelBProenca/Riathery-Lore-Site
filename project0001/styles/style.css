@@ -2,7 +2,7 @@
 
 * {
   border: none;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
@@ -16,8 +16,7 @@ body {
   font-weight: 500;
   align-items: center;
   background-image: linear-gradient(rgba(16, 14, 43, 0.952), rgba(95, 73, 122, 0.897));
-  /* background-color: rgb(3, 2, 39); */
-  background-size: cover;
+  background-color: rgb(3, 2, 39);
 }
 
 .tudo {
@@ -167,6 +166,12 @@ p {
 }
 
 @media screen and (max-width: 1025px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   .tudo .tester {
     display: none;
   }
