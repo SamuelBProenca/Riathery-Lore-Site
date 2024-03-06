@@ -66,10 +66,6 @@ img:hover {
     transition: 0.5 s;
 }
 
-.blue {
-    flex: 2;
-}
-
 
 p {
     border-left: 1px solid rgb(211, 128, 19);
@@ -88,8 +84,29 @@ p {
         overflow-x: hidden;
     }
 
-    section{
+    section {
         max-width: 90%;
         max-height: 40rem;
     }
+}
+
+@media screen and (max-width: 840px) and (min-width: 420px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    section:hover {
+        min-height: 97%;
+        min-width: 97%;
+    }
+
+    section:hover .conteudo{
+        display: flex;
+        transition: 0.8s;
+        justify-content: center;
+        flex-direction: column ;
+    }
+  
 }

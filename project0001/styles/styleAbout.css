@@ -49,7 +49,6 @@ body {
 .avestruzI {
     height: 90rem;
     width: 35rem;
-    /* background-color: rgba(255, 0, 0, 0.267); */
     background-color: #0a0620b0;
     text-align: justify;
     padding: 10px;
@@ -134,16 +133,41 @@ section .texto {
     .testeG {
         width: 82%;
     }
+    .texto img{
+        max-height: 30rem;
+    }
 }
 
-@media screen and (max-width: 767px) {
-    
+@media screen and (max-width: 840px) and (min-width: 420px){
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .tudo {
+        flex-direction: column;
+    }
+
+    .avestruzI {
+        width: 78%;
+        height: 100%;
+    }
+
+    .testeG {
+        width: 82%;
+    }
+
+    .texto{
+        padding: 1rem;
+    }
+    section.section .conteudo {
+        display: flex;
+        align-items: center;
+    }
+
+    .texto img{
+        max-height: 20rem;
+        min-width: 10rem;
+    }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-    
-}
-
-@media screen and (min-width: 1024px) {
-    
-}
