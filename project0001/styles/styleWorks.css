@@ -7,20 +7,6 @@
     box-sizing: border-box;
 }
 
-/* body {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    color: #f1f1f1;
-    font-size: 1.2rem;
-    font-weight: 500;
-    align-items: center;
-    background-image: linear-gradient(rgba(87, 70, 243, 0.671), rgba(207, 129, 39, 0.671)),
-                  url("../imgs/background2.jpg");
-                  background-repeat: no-repeat;
-                  background-size: cover;
-} */
-
 body {
     display: flex;
     position: relative;
@@ -93,4 +79,17 @@ p {
 .conteudo {
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 1025px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    section{
+        max-width: 90%;
+        max-height: 40rem;
+    }
 }

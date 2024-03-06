@@ -89,8 +89,6 @@ section {
 }
 
 section:hover {
-    min-height: 15.5rem;
-    min-width: 50.3rem;
     transition: 0.3s;
     box-shadow: 1px 1px 10px 5px rgba(154, 66, 255, 0.856);
     cursor: pointer;
@@ -115,4 +113,37 @@ section .texto {
 
 .testeG section img {
     height: 27.2rem;
+}
+
+@media screen and (max-width: 1025px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .tudo {
+        flex-direction: column;
+    }
+
+    .avestruzI {
+        width: 78%;
+        height: 100%;
+    }
+
+    .testeG {
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
 }
