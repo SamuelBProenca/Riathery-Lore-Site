@@ -11,7 +11,6 @@
     display: flex;
     /* Alteração: Exibe os itens do menu em uma linha */
     background-color: #0c0b0b;
-    max-width: 90vw;
     min-width: 100vw;
     /* box-shadow: 0px 5px 5px 0px #000; */
     margin-bottom: 1.2rem;
@@ -84,17 +83,22 @@ a {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 1024px) {
-    .menuMax ul {
-        display: none;
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+    .menu{
+        max-width: 100%;
     }
+    .menuMax{
+        width: 70%;
+    }
+}
 
+@media screen and (max-width: 1024px) {
+    
     .texto p {
         display: -webkit-box;
         -webkit-box-orient: vertical;
         overflow: hidden;
         -webkit-line-clamp: 5;
-        /* Defina o número de linhas desejado */
     }
 
 }
