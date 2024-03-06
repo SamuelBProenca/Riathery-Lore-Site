@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,400;1,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 * {
     border: none;
@@ -7,11 +7,9 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: linear-gradient(rgba(87, 70, 243, 0.671), rgba(207, 129, 39, 0.671)),
-    url("../imgs/background2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+    background-image: linear-gradient(rgba(16, 14, 43, 0.952), rgba(95, 73, 122, 0.897));
+    background-color: rgb(3, 2, 39);
 }
 
 
@@ -24,17 +22,18 @@ body{
     align-items: center;
 }
 
-form{
+form {
     width: 90%;
     max-width: 600px;
 }
 
-.input-group{
+.input-group {
     margin-bottom: 30px;
     position: relative;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 10px;
     outline: 0;
@@ -42,12 +41,12 @@ input, textarea {
     border-radius: 8px;
     background-color: #340f586e;
     color: #f1f1f1;
-    font-size: 15px ;
+    font-size: 15px;
     transition: 0.3s;
     color: aqua;
 }
 
-label{
+label {
     height: 100%;
     position: absolute;
     left: 0;
@@ -58,7 +57,7 @@ label{
     transition: 0.3s;
 }
 
-button{
+button {
     width: 100%;
     padding: 10px;
     color: #f1f1f1;
@@ -67,29 +66,30 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     animation-name: teste;
     animation-duration: 3s;
 }
 
- input:focus~label,
- input:valid~label,
- textarea:focus~label,
- textarea:valid~label{
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
     top: -35px;
     font-size: 14px;
- }
+}
 
-.row{
+.row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .row .input-group {
     flex-basis: 47%;
 }
 
-h1{
+h1 {
     color: #f1f1f1;
     padding: 10px;
     margin-bottom: 15px;
@@ -97,10 +97,27 @@ h1{
     text-transform: uppercase;
 }
 
-@keyframes teste{
+@keyframes teste {
     from {
-       background-color:rgba(119, 43, 241, 0.61); left: 0px; top: 0px;
-    }to {
-        background-color: #3be2ff8c; left: 100px; top: 100px;
+        background-color: rgba(119, 43, 241, 0.61);
+        left: 0px;
+        top: 0px;
+    }
+
+    to {
+        background-color: #3be2ff8c;
+        left: 100px;
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    h1{
+        text-align: center;
     }
 }
