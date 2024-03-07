@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    border: none;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    /* Alteração: Exibe os itens do menu em uma linha */
+    background-color: #0c0b0b;
+    min-width: 100vw;
+    /* box-shadow: 0px 5px 5px 0px #000; */
+    margin-bottom: 1.2rem;
+    align-items: center;
+    margin-top: 0;
+    justify-content: space-around;
+}
+
+.menu ul {
+    display: flex;
+    /* Alteração: Exibe os itens em uma linha */
+    margin-top: 3px;
+    margin-bottom: 3px;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.menu li {
+    margin-right: 5px;
+    /*Adição: Espaçamento de 5px entre os itens do menu */
+}
+
+.menu li a {
+    display: flex;
+    padding: 10px 20px;
+    text-decoration: none;
+    /* color: rgb(247, 89, 31); */
+    color: rgb(50, 12, 85);
+    font-size: large;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    /* background-color: rgba(247, 89, 31, 0.2); */
+    background-color: rgba(132, 31, 247, 0.2);
+    /* Alteração: Efeito de hover para quando o item for clicado */
+    border-radius: 10px;
+    transition: 0.4s;
+    color: #f1f1f1;
+}
+
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.menuMax {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 92rem;
+    max-width: 100;
+    margin: 0;
+    padding: 4px;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-image: url('../imgs/Riathery\ Photo\ 8.png');
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.logo:hover {
+    border-radius: 10px;
+    transition: 0.8s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+    .menu{
+        max-width: 100%;
+    }
+    .menuMax{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .texto p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 5;
+    }
+
+}
