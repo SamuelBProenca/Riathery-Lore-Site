@@ -362,20 +362,23 @@ section .texto {
     section{
         height: 30rem;
         text-align: center;
+        gap: 1rem;
     }
     
     section .conteudo p{
-        justify-content: center;
         display: none;
     }
+
     section .conteudo span {
         display: flex;
         justify-content: center;
-        margin-top: 1REM;
+        margin-top: 1rem;
     }
     
     section .conteudo img {
         height: 20rem;
+        width: auto;
         border-radius: 1rem;
+        margin: auto;
     }
 }
