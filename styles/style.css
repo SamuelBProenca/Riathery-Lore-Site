@@ -9,22 +9,16 @@
 
 body {
   display: flex;
-  position: relative;
-
   flex-direction: column;
   color: #f1f1f1;
   font-size: 1.2rem;
   font-weight: 500;
   align-items: center;
-
   background: linear-gradient(167.65deg, #100e2bf3, #5f497ae5 100%) no-repeat fixed;
   background-color: rgb(3, 2, 39);
 
   height: 100vh;
 
-
-  background-image: linear-gradient(rgba(16, 14, 43, 0.952), rgba(95, 73, 122, 0.897));
-  background-color: rgb(3, 2, 39);
 }
 
 .tudo {
@@ -40,8 +34,8 @@ body {
   min-height: 50rem;
   margin-right: 5rem;
   justify-content: start;
-  border-radius: 18px;
-  padding: 15px;
+  border-radius: 1.8rem;
+  padding: 1.5rem;
   background-color: #0a0620b0;
 }
 
@@ -53,7 +47,7 @@ body {
 .about img {
   height: 18rem;
   width: 13rem;
-  border-radius: 10px;
+  border-radius: 1rem;
   cursor: pointer;
 }
 
@@ -61,7 +55,7 @@ body {
 
 .social {
   display: flex;
-  border-radius: 15px;
+  border-radius: 1.5rem;
   width: 30rem;
   margin-left: 0;
   margin-top: 1.3rem;
@@ -80,8 +74,8 @@ body {
 
 .redes h1 {
   margin-bottom: 14%;
-  margin-top: 10px;
-  border-bottom: 1px solid aqua;
+  margin-top: 1rem;
+  border-bottom: .1rem solid aqua;
 }
 
 .redes {
@@ -97,7 +91,7 @@ body {
 
 .iconsI {
   display: flex;
-  padding: 5px;
+  padding: .5rem;
   align-items: baseline;
   justify-content: space-around;
 }
@@ -119,8 +113,8 @@ section {
   min-height: 1rem;
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.582);
-  padding: 18px;
-  border-radius: 15px;
+  padding: 1.8rem;
+  border-radius: 1.5rem;
 }
 
 section.texto {
@@ -136,7 +130,7 @@ section:hover {
 
 h1 {
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 img {
@@ -165,7 +159,7 @@ img:hover {
 
 
 p {
-  padding-left: 8px;
+  padding-left: .8rem;
 }
 
 .conteudo {
