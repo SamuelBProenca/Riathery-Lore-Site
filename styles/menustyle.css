@@ -153,7 +153,6 @@ a {
     justify-content: space-between;
     align-items: center;
     min-width: 92rem;
-    max-width: 100;
     margin: 0;
     padding: .4rem;
 }
@@ -192,4 +191,16 @@ a {
         -webkit-line-clamp: 5;
     }
 
+    .menuMax{
+        width: 100vw;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width:425px) {
+    
+
+    .menuMax{
+        display: none;
+    }
 }
