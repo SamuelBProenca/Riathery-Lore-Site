@@ -9,16 +9,22 @@
 
 body {
   display: flex;
+  position: relative;
+
   flex-direction: column;
   color: #f1f1f1;
   font-size: 1.2rem;
   font-weight: 500;
   align-items: center;
+
   background: linear-gradient(167.65deg, #100e2bf3, #5f497ae5 100%) no-repeat fixed;
   background-color: rgb(3, 2, 39);
 
   height: 100vh;
 
+
+  background-image: linear-gradient(rgba(16, 14, 43, 0.952), rgba(95, 73, 122, 0.897));
+  background-color: rgb(3, 2, 39);
 }
 
 .tudo {

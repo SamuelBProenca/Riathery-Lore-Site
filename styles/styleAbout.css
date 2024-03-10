@@ -32,6 +32,9 @@ img:hover {
 
 body {
     display: flex;
+ 
+
+    position: relative;
     flex-direction: column;
     color: #f1f1f1;
     font-size: 1.2rem;
@@ -42,6 +45,8 @@ body {
 
     height: 100vh;
 
+    background-image: linear-gradient(rgba(16, 14, 43, 0.952), rgba(95, 73, 122, 0.897));
+    background-color: rgb(3, 2, 39);
 }
 
 .tudo {
@@ -137,12 +142,15 @@ section .texto {
     }
 
     .texto img {
+    .texto img{
         max-height: 30rem;
     }
 }
 
 @media screen and (max-width: 840px) and (min-width: 420px) {
 
+
+@media screen and (max-width: 840px) and (min-width: 420px){
     html,
     body {
         overflow-x: hidden;
@@ -165,6 +173,10 @@ section .texto {
         padding: 1rem;
     }
 
+
+    .texto{
+        padding: 1rem;
+    }
     section.section .conteudo {
         display: flex;
         align-items: center;
@@ -175,3 +187,9 @@ section .texto {
         min-width: 10rem;
     }
 }
+    .texto img{
+        max-height: 20rem;
+        min-width: 10rem;
+    }
+}
+
