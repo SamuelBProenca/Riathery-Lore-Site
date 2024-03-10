@@ -357,3 +357,25 @@ section .texto {
         min-width: 10rem;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width:425px) {
+    section{
+        height: 30rem;
+        text-align: center;
+    }
+    
+    section .conteudo p{
+        justify-content: center;
+        display: none;
+    }
+    section .conteudo span {
+        display: flex;
+        justify-content: center;
+        margin-top: 1REM;
+    }
+    
+    section .conteudo img {
+        height: 20rem;
+        border-radius: 1rem;
+    }
+}
