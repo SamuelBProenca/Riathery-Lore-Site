@@ -94,5 +94,102 @@ a {
         overflow: hidden;
         -webkit-line-clamp: 5;
     }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    border: none;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    background-color: #0c0b0b;
+    width: 100vw;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    padding: .1rem;
+}
+
+.menu ul {
+    display: flex;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+.menu li {
+    margin-right: .5rem;
+}
+
+.menu li a {
+    display: flex;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: rgb(50, 12, 85);
+    font-size: large;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    background-color: #841ff733;
+    border-radius: 1rem;
+    transition: 0.4s;
+    color: #f1f1f1;
+}
+
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.menuMax {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 92rem;
+    max-width: 100;
+    margin: 0;
+    padding: .4rem;
+}
+
+
+.logo {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url('../imgs/Riathery\ Photo\ 8.png');
+    background-size: cover;
+    margin-left: 1.5rem;
+}
+
+.logo:hover {
+    border-radius: 1rem;
+    transition: 0.8s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+    .menu{
+        max-width: 100%;
+    }
+    .menuMax{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .texto p {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 5;
+    }
 
 }
