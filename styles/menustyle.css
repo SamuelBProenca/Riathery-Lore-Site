@@ -9,45 +9,39 @@
 
 .menu {
     display: flex;
-    /* Alteração: Exibe os itens do menu em uma linha */
     background-color: #0c0b0b;
-    min-width: 100vw;
-    /* box-shadow: 0px 5px 5px 0px #000; */
+    width: 100vw;
     margin-bottom: 1.2rem;
     align-items: center;
-    margin-top: 0;
-    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+    padding: .1rem;
 }
 
 .menu ul {
     display: flex;
-    /* Alteração: Exibe os itens em uma linha */
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
     list-style: none;
-    margin-right: 15px;
+    margin-right: 1.5rem;
 }
 
 .menu li {
-    margin-right: 5px;
-    /*Adição: Espaçamento de 5px entre os itens do menu */
+    margin-right: .5rem;
 }
 
 .menu li a {
     display: flex;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     text-decoration: none;
-    /* color: rgb(247, 89, 31); */
     color: rgb(50, 12, 85);
     font-size: large;
     font-weight: 500;
 }
 
 .menu li a:hover {
-    /* background-color: rgba(247, 89, 31, 0.2); */
-    background-color: rgba(132, 31, 247, 0.2);
-    /* Alteração: Efeito de hover para quando o item for clicado */
-    border-radius: 10px;
+    background-color: #841ff733;
+    border-radius: 1rem;
     transition: 0.4s;
     color: #f1f1f1;
 }
@@ -64,20 +58,20 @@ a {
     min-width: 92rem;
     max-width: 100;
     margin: 0;
-    padding: 4px;
+    padding: .4rem;
 }
 
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 3.5rem;
+    height: 3.5rem;
     background-image: url('../imgs/Riathery\ Photo\ 8.png');
     background-size: cover;
-    margin-left: 15px;
+    margin-left: 1.5rem;
 }
 
 .logo:hover {
-    border-radius: 10px;
+    border-radius: 1rem;
     transition: 0.8s;
     cursor: pointer;
     transform: scale(1.1);
