@@ -32,14 +32,16 @@ img:hover {
 
 body {
     display: flex;
-    position: relative;
     flex-direction: column;
     color: #f1f1f1;
     font-size: 1.2rem;
     font-weight: 500;
     align-items: center;
-    background-image: linear-gradient(rgba(16, 14, 43, 0.952), rgba(95, 73, 122, 0.897));
+    background: linear-gradient(167.65deg, #100e2bf3, #5f497ae5 100%) no-repeat fixed;
     background-color: rgb(3, 2, 39);
+
+    height: 100vh;
+
 }
 
 .tudo {
@@ -133,12 +135,14 @@ section .texto {
     .testeG {
         width: 82%;
     }
-    .texto img{
+
+    .texto img {
         max-height: 30rem;
     }
 }
 
-@media screen and (max-width: 840px) and (min-width: 420px){
+@media screen and (max-width: 840px) and (min-width: 420px) {
+
     html,
     body {
         overflow-x: hidden;
@@ -157,17 +161,17 @@ section .texto {
         width: 82%;
     }
 
-    .texto{
+    .texto {
         padding: 1rem;
     }
+
     section.section .conteudo {
         display: flex;
         align-items: center;
     }
 
-    .texto img{
+    .texto img {
         max-height: 20rem;
         min-width: 10rem;
     }
 }
-
