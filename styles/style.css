@@ -188,7 +188,7 @@ p {
   box-sizing: border-box;
 }
 
-body {
+body  {
   display: flex;
   flex-direction: column;
   color: #f1f1f1;
