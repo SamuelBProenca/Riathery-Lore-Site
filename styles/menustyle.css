@@ -18,6 +18,8 @@ header{
     width: 100vw;
     background-color: var(--menu-color);
     margin-bottom: 1rem;
+    /* position: absolute; */
+    z-index: 1;
 }
 
 nav {
@@ -48,6 +50,14 @@ nav {
     letter-spacing: .3rem;
     margin-left: 3.2rem;
 }
+.nav-list li a:hover{
+    background-color: #772bbe8c;
+    padding: 1rem;
+    transition: .8s;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: underline;
+}
 
 .mobile-menu {
     display: none;
@@ -71,7 +81,7 @@ nav {
         position: absolute;
         top: 6vh;
         right: 0;
-        width: 50vw;
+        width: 100vw;
         height: 95vh;
         background-color: var(--menu-color);
         flex-direction: column;
@@ -80,10 +90,9 @@ nav {
         transform: translateX(100%);
         z-index: 1;
         transition: transform 0.3s ease-in;
-
     }
     .nav-list li {
-        margin-left: 40%;
+        margin: 0;
         opacity: 0;
     }
 
@@ -112,6 +121,6 @@ nav {
 .mobile-menu.active .line1 {
     opacity: 0;
 }
-.mobile-menu.active .line1 {
+.mobile-menu.active .line1{
     transform: rotate(45deg) translate(-5px, 7px);
 }
