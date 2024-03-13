@@ -134,3 +134,11 @@ nav {
 .mobile-menu.active .line1 {
     transform: rotate(45deg) translate(-5px, 7px);
 }
+
+@media screen and (min-width: 319px) and (max-width: 425px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
