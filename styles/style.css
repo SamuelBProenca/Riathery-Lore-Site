@@ -45,8 +45,8 @@ body {
 }
 
 .about img {
-  height: 18rem;
-  width: 13rem;
+  /* height: 18rem;
+  width: 13rem; */
   border-radius: 1rem;
   cursor: pointer;
 }
@@ -358,4 +358,18 @@ p {
   .tudo .tester {
     display: none;
   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+  html,
+  body {
+      overflow-x: hidden;
+  }
+
+
+  section p{
+      display: none;
+  }
+
 }

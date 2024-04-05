@@ -56,7 +56,7 @@ nav {
 
 .nav-list li a:hover {
     background-color: #772bbe8c;
-    padding: 1rem;
+    padding: .6rem;
     transition: .8s;
     border-radius: 1rem;
     color: white;
