@@ -18,21 +18,15 @@ function backHome() {
 backHome();
 
 
-// const sobre = document.getElementById('sobre');
+const sobre = document.getElementById('sobre');
 
-// function goAbout() {
-//     sobre.addEventListener('click', () => {
-//         window.location = './html/about.html';
-//     });
-// }
+function goAbout() {
+    sobre.addEventListener('click', () => {
+        window.location = './html/about.html';
+    });
+}
 
-// goAbout();
-
-// function showMore(){
-//     document.getElementById("gg").style.backgroundColor = "red"
-// }
-
-// showMore();
+goAbout();
 
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks){
@@ -69,7 +63,26 @@ class MobileNavbar {
         }
         return this;
     }
+    
 }
+
+//função que verifica se o mmobile menu está toggle e se estiver tornar o display da div menu igual a 'none'   
+const menuBarToggle = document.getElementById('navbar');
+
+function callSize(){
+    const bodyWidth = document.body.clientWidth;
+    const menuBarToggle = document.getElementById('menutest');
+    const tamanho = 1024;
+    
+    
+    if (bodyWidth <= tamanho){
+        menuBarToggle.style.display = 'none';
+    }else{
+        menuBarToggle.style.backgroundColor = 'block';
+    }
+}
+
+window.addEventListener('resize', callSize);
 
 const mobileNavbar = new MobileNavbar(
     ".mobile-menu",
